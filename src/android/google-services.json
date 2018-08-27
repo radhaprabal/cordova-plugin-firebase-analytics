@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "19383600854",
+    "firebase_url": "https://vedanataworld.firebaseio.com",
+    "project_id": "vedanataworld",
+    "storage_bucket": "vedanataworld.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19383600854:android:d4580f6063239c3c",
+        "android_client_info": {
+          "package_name": "com.vedantaworld.vedantaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19383600854-b536kr9vbm0tm95p6ah17s75a9p389ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh_2oRe-wSSCufipKYjSlKepQ-lZII5a8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
