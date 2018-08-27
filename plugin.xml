@@ -46,8 +46,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
          
                <config-file parent="/resources" target="res/values/strings.xml">
 			<string name="google_app_id">19383600854</string>
-	</config-file>
-		<config-file parent="/resources" target="res/values/strings.xml">
 			<string name="google_api_key">AIzaSyAh_2oRe-wSSCufipKYjSlKepQ-lZII5a8</string>
               </config-file>
             <resource-file src="src/android/google-services.json" target="."/>   
