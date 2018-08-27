@@ -27,10 +27,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-
+     
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
-
+         <resource-file src="src/ios/GoogleService-Info.plist" />             
         <framework src="Firebase/Core" type="podspec" spec="~> 5.0"/>
     </platform>
 
@@ -43,6 +43,14 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 <param name="onload" value="true" />
             </feature>
         </config-file>
+         
+               <config-file parent="/resources" target="res/values/strings.xml">
+			<string name="google_app_id">@string/google_app_id</string>
+	</config-file>
+		<config-file parent="/resources" target="res/values/strings.xml">
+			<string name="google_api_key">@string/google_api_key</string>
+              </config-file>
+            <resource-file src="src/android/google-services.json" target="."/>   
 
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.INTERNET" />
